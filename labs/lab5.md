@@ -12,13 +12,7 @@ You can find an example Rollup config in `resources -> rollup.config.js`. You wi
 - The `input` value is where the main javascript file is.
 - The `output` value is where Rollup will bundle its files to.
 
-## Step 2: Babel
-
-We need help from the package Babel to compile the modern JS and React code into browser-readable javascript.
-We need to install these packages `npm i -D @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react`.
-We also need a `.babelrc` file, this can be found in `resources > .babelrc`, just copy and paste this like you dide with rollup.
-
-## Step 3: (optional, but reccomended) Watching client side code and run the server
+## Step 2: (optional, but reccomended) Watching client side code and run the server code
 
 We want to both bundle the client side code everytime there is a change. To run several commands in parallel (bundling client side code and running the server) we will install `npm-run-parallel`.
 
@@ -33,7 +27,7 @@ Add the scripts below to `package.json`
 
 You can now run the project with `npm run dev`, and everytime you
 
-## Step 4: Add and render a simple React component
+## Step 3: Add and render a simple React component
 
 First off, we need React itself in our project, so install it with
 
@@ -76,7 +70,7 @@ podlet.js({
 
 When you run the application again, you should see `Hello, World!` on your app.
 
-## Step 5: Put our header app in React
+## Step 4: Put our header app in React
 
 First off, we want `index.jsx` to just render our app, and we can modify it somewhere else.
 

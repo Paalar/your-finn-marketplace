@@ -15,8 +15,16 @@ const config = {
       include: /node_modules/,
     }),
     babel({
-      babelHelpers: "runtime",
+      babelHelpers: "bundled",
       exclude: "node_modules/**",
+      presets: [
+        [
+          "@babel/preset-react",
+          {
+            runtime: "automatic",
+          },
+        ],
+      ],
     }),
     replace({
       "process.env.NODE_ENV": JSON.stringify("production"),
