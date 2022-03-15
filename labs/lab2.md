@@ -136,4 +136,7 @@ And we can then visit our page in a browser at:
 http://localhost:3000
 ```
 
-You should now see the header your created as well as the other HTML supplied through the layout.
+You should now see the header your created as well as the other HTML supplied through the layout. Nice!
+
+In [**lab 3**](https://github.com/Paalar/your-finn-marketplace/blob/main/labs/lab3.md) we will add some FINN-esque styling to our app. Leeets go!
+
