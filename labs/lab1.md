@@ -138,4 +138,4 @@ The manifest url should render values of the json file, which should look someth
 }
 ```
 
-Next, move onto to Lab 2 to learn more Podium layouts!
+Next, move onto to [**lab 2**](https://github.com/Paalar/your-finn-marketplace/blob/main/labs/lab2.md) to learn more Podium layouts!
