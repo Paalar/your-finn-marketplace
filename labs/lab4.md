@@ -13,3 +13,5 @@ As mentioned earlier, Fabric's classes are based on tailwindcss, but with some c
 Many CSS classes can be found here: [https://css.fabric-ds.io/](https://css.fabric-ds.io/)
 
 Tailwind's page can be found here: [https://tailwindcss.com/](https://tailwindcss.com/) (most classes will work, but not all)
+
+Next steps for the advanced developer: create your microfrontend app with a modern web framework, React! Check out [**lab 5**](https://github.com/Paalar/your-finn-marketplace/blob/main/labs/lab5.md)

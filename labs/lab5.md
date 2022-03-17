@@ -12,7 +12,7 @@ You can find an example Rollup config in `resources -> rollup.config.js`. You wi
 - The `input` value is where the main javascript file is.
 - The `output` value is where Rollup will bundle its files to.
 
-## Step 2: (optional, but reccomended) Watching client side code and run the server code
+## Step 2: (optional, but recommended) Watching client side code and run the server code
 
 We want to both bundle the client side code everytime there is a change. To run several commands in parallel (bundling client side code and running the server) we will install `npm-run-parallel`.
 

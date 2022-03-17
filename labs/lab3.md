@@ -1,6 +1,6 @@
 # Making your app look like Finn.no
 
-Every brand has its own look and feel, this includes Finn. We have very talented designers that help us make the site look the way it looks, but we also have our own design systems. Our old design system is named `Troika`, while our new and improved design system is named `Fabric`.
+Every brand has its own look and feel, this includes Finn. We have very talented designers that help us make the site look the way it looks, but we also have our own design systems. Design systems help us make FINN look consistently good on mobile and on web, no matter which subpage you are visiting. Our old design system is named `Troika`, while our new and improved design system is named `Fabric`.
 
 Fabric is open source and is continuously being worked on by the core frontend team.
 Here is a link to Fabric, [https://www.fabric-ds.io/](https://www.fabric-ds.io/)
@@ -67,3 +67,5 @@ res.podiumSend(`
 Adding the CSS to the podlet will only work for the podlet itself, but not when they are in a layot. So we have to add the CSS to the layout as well, much like Step 1.
 
 The CSS helps a lot, but to contain the page in the correct width, set the class type `page-container` to a parent element in the layout. Now the header should look more correct!
+
+Great, you added some FINN-style to your app! Now, let's make a footer in [**lab 4**](https://github.com/Paalar/your-finn-marketplace/blob/main/labs/lab4.md) :)
